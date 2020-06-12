@@ -1,5 +1,30 @@
 # Twitter Clone
 
+<strong>Updates</strong>
+- jQuery has been bumped down to 3.4.1 despite bot dependencies prompting for 3.5.0
+- This is because jQuery 3.5.0 does not support the bootstrap version used here
+
+If your jQuery version is 3.5.0, you can bump it back down to 3.4.1:
+
+Uninstall ```npm``` package:
+```
+npm remove jquery
+```
+
+Install the right version:
+```
+npm install jquery@~3.4.1
+```
+
+Lastly, don't forget to run
+```
+yarn install --check-files
+```
+(you might get an error to prompt you to run ```yarn install --check-files``` if you have forgotten)
+
+<hr/>
+<br/><br/>
+
 This Twttier Clone is built using Ruby on Rails
 
 - Ruby version:
@@ -40,11 +65,13 @@ $ yarn install --check-files
 ```
 And that will be all!
 
+<br/>
 
 - System dependencies
 
 Due to the unfortunate case of my laptop being a Windows laptop, I am using <a href='https://aws.amazon.com/cloud9/'>Amazon EC2 Cloud9</a>'s Ubuntu Server environment.
 
+<br/>
 
 - Database 
 
@@ -64,6 +91,7 @@ $ bundle install --without production
 Don't forget to commit the changes!
 YOU ARE DONE!
 
+<br/>
 
 - Deployment instructions
 
@@ -94,5 +122,7 @@ To deploy your commits, use Git to push the master branch to Heroku. ```master``
 ```
 $ git push heroku master
 ```
+<br/>
+<hr/>
 
 Demo link: https://radiant-sierra-39624.herokuapp.com/
