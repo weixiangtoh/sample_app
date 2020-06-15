@@ -23,7 +23,7 @@ yarn install --check-files
 (you might get an error to prompt you to run ```yarn install --check-files``` if you have forgotten)
 
 <hr/>
-<br/><br/>
+<br/>
 
 This Twttier Clone is built using Ruby on Rails
 
@@ -122,7 +122,7 @@ To deploy your commits, use Git to push the master branch to Heroku. ```master``
 ```
 $ git push heroku master
 ```
-<br/>
+
 <hr/>
 
 Demo link: https://radiant-sierra-39624.herokuapp.com/
